@@ -1,0 +1,30 @@
+[[package]]
+name = "PySimpleGUI"
+version = "4.60.3"
+description = "Python GUIs for Humans. Launched in 2018. It's 2022 & PySimpleGUI is an ACTIVE & supported project. Super-simple to create custom GUI's. 325+ Demo programs & Cookbook for rapid start. Extensive documentation. Main docs at www.PySimpleGUI.org. Fun & your success are the focus. Examples using Machine Learning (GUI, OpenCV Integration), Rainmeter Style Desktop Widgets, Matplotlib + Pyplot, PIL support, add GUI to command line scripts, PDF & Image Viewers. Great for beginners & advanced GUI programmers."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "tkinterdnd2"
+version = "0.3.0"
+description = "TkinterDnD2 is a python wrapper for George Petasis'' tkDnD Tk extension version 2"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "29fb7470f1fb063b1c7937e4520c03637b1ee1afce4e4f2858c45bccdc2e6a6c"
+
+[metadata.files]
+PySimpleGUI = [
+    {file = "PySimpleGUI-4.60.3-py3-none-any.whl", hash = "sha256:dc62d5722c0a46d709bc8706590b5d47593bd2ed8c1d306ecfee6c05fb6711f5"},
+    {file = "PySimpleGUI-4.60.3.tar.gz", hash = "sha256:75ec46694dc975c0e46be8c57a774e038433b53095821d67be3b221aca3fd68d"},
+]
+tkinterdnd2 = [
+    {file = "tkinterdnd2-0.3.0-py3-none-any.whl", hash = "sha256:ef3ff4894c75e21ddc3252eb6d1292670824bf20240b9e82da9240631bbe63fe"},
+    {file = "tkinterdnd2-0.3.0.tar.gz", hash = "sha256:cb9d72634c42ff2e5a6e34823ef02f7722a5b6ad5cec5e1de82ec8f0c371a614"},
+]

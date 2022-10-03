@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "windows-setup"
+version = "0.1.0"
+description = ""
+authors = ["Jagashira <pyprogjas.3104@gmail.com>"]
+readme = "README.md"
+packages = [{include = "windows_setup"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PySimpleGUI = "^4.60.3"
+tkinterdnd2 = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
